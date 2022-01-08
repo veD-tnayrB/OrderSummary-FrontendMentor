@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Red+Hat+Display:wght@100;500&display=swap');
+
+:root {
+    --Blue: hsl(245, 75%, 52%);
+    --Gray: hsl(231, 6%, 50%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e0e8ff top no-repeat fixed url('images/pattern-background-desktop.svg');
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    color: #243255;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card {
+    background: #FFF;
+    box-shadow: 0 25px 20px 5px #c8d0ec;
+    border-radius: 20px;
+
+    width: 30%;
+    max-width: 450px;
+    min-width: 350px;
+
+    margin: 100px 20px;
+    padding: 0 0 50px 0; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card_image-section {
+    min-width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#card_image-section img { 
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#card_description-section {
+    width: 100%;
+    padding: 20px 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card_description-section h1 {
+    font-size: 24px;
+    font-weight: 900;
+
+    margin: 10px;
+}
+
+#card_description-section span {
+    color: var(--Gray);
+    font-size: 16px;
+    text-align: center;
+
+    width: 300px;
+    margin: 10px;
+}
+
+#description-section_more-info {
+    background: #f8f9fe;
+    border-radius: 10px;
+
+    width: 70%;
+
+    margin: 15px 0 0 0;
+    padding: 20px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#more-info_icon-and-price {
+    display: flex;
+    align-items: center;
+}
+
+#more-info_amount {
+    width: auto;
+
+    margin: 0 0 0 15px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#amount_plan {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 0 2px 0;
+}
+
+#amount_amount-for-year {
+    font-size: 15px;
+    color: var(--Gray)
+}
+
+#more-info_change-link {
+    font-weight: 700;
+    color: var(--Blue);
+}
+
+#more-info_change-link:hover {
+    color: hsl(245, 83%, 68%);
+    text-decoration: none;
+}
+
+#description-section_payment-button {
+    background: var(--Blue);
+    box-shadow: 0 15px 20px 5px hsl(0, 0%, 88%);
+    color: #FFF;
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+
+    border-radius: 10px;
+    border: 0;
+
+    width: 80%;
+
+    margin: 25px;
+    padding: 12px 0;
+}
+
+#description-section_payment-button:hover {
+    background: hsl(245, 83%, 68%);
+    box-shadow: 0 0 1px 1px hsl(0, 0%, 83%);
+    cursor: pointer;
+}
+
+#description-section_payment-button:active {
+    background: hsl(245, 96%, 51%);
+}
+
+#description-section_cancel-order {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--Gray);
+    text-decoration: none;
+}
+
+#description-section_cancel-order:hover {
+    color: #243255;
+}
