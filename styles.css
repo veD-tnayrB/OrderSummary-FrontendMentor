@@ -134,6 +134,7 @@ body {
 
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
+    font-size: 1rem;
 
     border-radius: 10px;
     border: 0;
@@ -141,7 +142,7 @@ body {
     width: 80%;
 
     margin: 30px 0;
-    padding: 18px 0;
+    padding: 15px 0;
 }
 
 #description-section_payment-button:hover {
